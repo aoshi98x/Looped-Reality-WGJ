@@ -610,6 +610,9 @@ MonoBehaviour:
   gravity: {x: 0, y: 0, z: 0}
   animator: {fileID: 2710186112680859294}
   flash: {fileID: 3367332537012550208}
+  interactables:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!143 &7136366059209799620
 CharacterController:
   m_ObjectHideFlags: 0
@@ -757,7 +760,7 @@ Animator:
   m_GameObject: {fileID: 9065102333444870722}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e6ee21278081c2d44b9d0c571ea76b3b, type: 2}
+  m_Controller: {fileID: 9100000, guid: a585a353336e6504fa1bd3b66abdda7f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
