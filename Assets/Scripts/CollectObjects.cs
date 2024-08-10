@@ -10,7 +10,7 @@ public class CollectObjects : MonoBehaviour
     public Vector3 doorOpenPosition; 
     public float moveSpeed = 2f; 
     
-     private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         
         if (other.CompareTag("CorrectObject"))
