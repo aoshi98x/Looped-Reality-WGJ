@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
     public int jumpForce;
     Vector3 movement;
     [SerializeField] Vector3 gravity;
+    [Header("CellPhone")]
+    [SerializeField] Animator animator;
+    [SerializeField] GameObject flash;
+    bool activePhone;
 
     void Start()
     {
@@ -42,6 +46,11 @@ public class PlayerController : MonoBehaviour
         else
         {
             gravity.y = -2;
+        }
+        if(Input.GetButtonDown("Fire2"))
+        {
+            activePhone = !activePhone;
+            animator.SetBool("usePhone", activePhone);
         }
     }
     //To identify Collisions
