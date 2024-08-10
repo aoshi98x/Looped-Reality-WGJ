@@ -49,6 +49,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   drawer: {fileID: 2470495302866543800}
+  originValue: 0
+  destinationValue: -0.75
 --- !u!65 &1857194745
 BoxCollider:
   m_ObjectHideFlags: 0

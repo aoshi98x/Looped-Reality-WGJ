@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     float gravityScale = -9.8f;
     [Range(0,5)]
     public float speed;
-    [Range(0,1)]
+    [Range(1,2)]
     public float decal;
     [Range(1,5)]
     public int jumpForce;
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     [Header("CellPhone")]
     [SerializeField] Animator animator;
     [SerializeField] GameObject flash;
-    bool activePhone;
+    bool activePhone, flashActive;
     public LayerMask interactables;
     RaycastHit hit;
 
@@ -55,6 +55,14 @@ public class PlayerController : MonoBehaviour
         {
             activePhone = !activePhone;
             animator.SetBool("usePhone", activePhone);
+        }
+        if(Input.GetButtonDown("Light"))
+        {
+            if(activePhone)
+            {
+                flashActive = !flashActive;
+                flash.SetActive(flashActive);
+            }
         }
         if(Input.GetButtonDown("Fire1") && RayOut())
         {
