@@ -7,11 +7,12 @@ TagManager:
   - Object
   - CorrectObject
   - IncorrectObject
+  - Table
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactables
   - Water
   - UI
   - 

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -19,6 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] GameObject flash;
     bool activePhone;
+    public LayerMask interactables;
+    RaycastHit hit;
+
 
     void Start()
     {
@@ -52,14 +56,23 @@ public class PlayerController : MonoBehaviour
             activePhone = !activePhone;
             animator.SetBool("usePhone", activePhone);
         }
-    }
-    //To identify Collisions
-    /*private void OnControllerColliderHit(ControllerColliderHit hit) {
-        
-        if(hit.gameObject.CompareTag("Ring"))
+        if(Input.GetButtonDown("Fire1") && RayOut())
         {
+            hit.collider.GetComponent<TableSubject>().OpenClose();
         }
-    }*/
+    }
+    bool RayOut()
+    {
+        
+        Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, interactables))
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
     void MovePlayer()
     {
