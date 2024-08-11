@@ -5,17 +5,16 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Variables")]
-    CharacterController controller;
+    Rigidbody playerRigidB;
     [SerializeField] float movX, movZ;
-    float gravityScale = -9.8f;
-    [Range(0,5)]
+    [Range(15,20)]
     public float speed;
-    [Range(1,2)]
+    [Range(1,5)]
     public float decal;
     [Range(1,5)]
     public int jumpForce;
     Vector3 movement;
-    [SerializeField] Vector3 gravity;
+
     [Header("CellPhone")]
     [SerializeField] Animator animator;
     [SerializeField] GameObject flash;
@@ -26,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        playerRigidB = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -34,28 +33,26 @@ public class PlayerController : MonoBehaviour
         
         movX = Input.GetAxis("Horizontal");
         movZ = Input.GetAxis("Vertical");
+        movement = transform.forward * movZ + transform.right * movX;
         
-        MovePlayer();
         RotatePlayer();
         
-        if(Input.GetButtonDown("Jump") && controller.isGrounded)
+        if(Input.GetButtonDown("Jump"))
         {
             JumpPlayer();
         }
 
-        if(!controller.isGrounded)
+        if(Input.GetButtonDown("Fire1") && RayOut())
         {
-            ApplyGravity();
+            hit.collider.GetComponent<TableSubject>().OpenClose();
         }
-        else
-        {
-            gravity.y = -2;
-        }
+
         if(Input.GetButtonDown("Fire2"))
         {
             activePhone = !activePhone;
             animator.SetBool("usePhone", activePhone);
         }
+
         if(Input.GetButtonDown("Light"))
         {
             if(activePhone)
@@ -64,10 +61,10 @@ public class PlayerController : MonoBehaviour
                 flash.SetActive(flashActive);
             }
         }
-        if(Input.GetButtonDown("Fire1") && RayOut())
-        {
-            hit.collider.GetComponent<TableSubject>().OpenClose();
-        }
+    }
+    private void FixedUpdate() {
+        
+        MovePlayer();
     }
     bool RayOut()
     {
@@ -84,23 +81,16 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
-        movement = transform.right * movX + transform.forward * movZ;
-        controller.SimpleMove(movement * speed);
+        playerRigidB.AddForce(movement.normalized * speed, ForceMode.Acceleration);
     }
     void RotatePlayer()
     {
         transform.Rotate(0, Input.GetAxis("Mouse X")* decal,0);
     }
-    void ApplyGravity()
-    {
-        gravity.y += gravityScale * Time.deltaTime;
-        controller.Move(gravity * Time.deltaTime);
-    }
 
     void JumpPlayer()
     {
-        gravity.y = Mathf.Sqrt(gravityScale * -2 *jumpForce);
-        controller.Move(gravity * Time.deltaTime);
+        playerRigidB.AddForce(transform.up *jumpForce, ForceMode.Impulse);
     }
 }
 
