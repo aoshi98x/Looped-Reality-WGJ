@@ -99,6 +99,15 @@ public class MenuController : MonoBehaviour
         }
     }
 
+    public void ResumeGameDialog()
+    {
+        if (PlayerPrefs.HasKey("SavedLevel"))
+        {
+            levelToLoad = PlayerPrefs.GetString("Savedlevel");
+            SceneManager.LoadScene(levelToLoad);
+        }
+    }
+
     public void ExitButton()
     {
         Application.Quit();
