@@ -38,7 +38,7 @@ public class MenuController : MonoBehaviour
     [SerializeField] private float defaultVolume = 1.0f;
 
     //Confirmation
-    [SerializeField] private GameObject comfirmationPrompt = null;
+    //[SerializeField] private GameObject comfirmationPrompt = null;
 
     //Levels to load
     public string newGameLevel;
@@ -114,7 +114,7 @@ public class MenuController : MonoBehaviour
     public void VolumeApply()
     {
         PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
-        StartCoroutine(ConfirmationBox());
+        //StartCoroutine(ConfirmationBox());
     }
 
     public void ResetButton(string menuType)
@@ -174,7 +174,7 @@ public class MenuController : MonoBehaviour
         }
 
         PlayerPrefs.SetFloat("masterSen", mainControllerSen);
-        StartCoroutine(ConfirmationBox());
+        //StartCoroutine(ConfirmationBox());
     }
 
     //Graphics Settings
@@ -204,14 +204,14 @@ public class MenuController : MonoBehaviour
         PlayerPrefs.SetInt("masterFullscreen", (isFullScreen ? 1 : 0));
         Screen.fullScreen = isFullScreen;
 
-        StartCoroutine(ConfirmationBox());
+        //StartCoroutine(ConfirmationBox());
     }
 
     //Confirmation
-    public IEnumerator ConfirmationBox()
+    /*public IEnumerator ConfirmationBox()
     {
         comfirmationPrompt.SetActive(true);
         yield return new WaitForSeconds(2);
         comfirmationPrompt.SetActive(false);
-    }
+    }*/
 }
