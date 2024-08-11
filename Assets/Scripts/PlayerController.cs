@@ -12,8 +12,12 @@ public class PlayerController : MonoBehaviour
     [Range(1,5)]
     public float decal;
     [Range(1,5)]
+    public float horizontalDecal;
+    float cameraHorizontalRotation = 0f;
+    [Range(1,5)]
     public int jumpForce;
     Vector3 movement;
+    [SerializeField] Transform controlRot;
 
     [Header("CellPhone")]
     [SerializeField] Animator animator;
@@ -85,7 +89,10 @@ public class PlayerController : MonoBehaviour
     }
     void RotatePlayer()
     {
-        transform.Rotate(0, Input.GetAxis("Mouse X")* decal,0);
+        cameraHorizontalRotation -= Input.GetAxis("Mouse Y") * horizontalDecal;
+        controlRot.localEulerAngles = Vector3.right * cameraHorizontalRotation;
+
+        transform.Rotate(0, Input.GetAxis("Mouse X") * decal, 0);
     }
 
     void JumpPlayer()

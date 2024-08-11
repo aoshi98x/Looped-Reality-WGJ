@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager instance;
+    public static AudioManager Instance {get; private set;}
 
     public AudioSource audioSource;
     public AudioClip slowTickTock;
@@ -10,18 +10,27 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        instance = this;
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     public void PlaySlowTickTock()
     {
-        audioSource.clip = slowTickTock;
-        audioSource.Play();
+        audioSource.pitch = 0.85f;
+        /*audioSource.clip = slowTickTock;
+        audioSource.Play();*/
     }
 
     public void PlayFastTickTock()
     {
-        audioSource.clip = fastTickTock;
-        audioSource.Play();
+        audioSource.pitch = 1f;
+        /*audioSource.clip = fastTickTock;
+        audioSource.Play();*/
     }
 }

@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 2362649121117579461}
   - component: {fileID: 970761944794709226}
   - component: {fileID: 3165364041864694368}
-  - component: {fileID: 3165364041864694369}
   m_Layer: 0
   m_Name: ClosetDoor_Base
   m_TagString: Untagged
@@ -266,21 +265,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06565454, y: 2.8244824, z: 0.70461285}
   m_Center: {x: 0.029670998, y: 0.055483937, z: 0.34915048}
---- !u!114 &3165364041864694369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3165364041864694371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 469e00e876fb40142af620db2b198643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Closetopenandclose: {fileID: 0}
-  open: 0
-  Player: {fileID: 0}
 --- !u!1 &5282455707208595340
 GameObject:
   m_ObjectHideFlags: 0

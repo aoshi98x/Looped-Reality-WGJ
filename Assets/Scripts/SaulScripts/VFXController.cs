@@ -8,7 +8,7 @@ public class VFXController : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.R)) 
+        if (playerInRange && Input.GetButtonDown("ActionPlayer")) 
         {
             ActivateVFX();
         }
@@ -22,7 +22,7 @@ public class VFXController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
             playerInRange = true;
         }
@@ -30,7 +30,7 @@ public class VFXController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
             playerInRange = false;
         }

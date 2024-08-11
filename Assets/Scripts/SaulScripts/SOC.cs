@@ -5,7 +5,7 @@ using UnityEngine;
 public class SOC : MonoBehaviour
 {
     public float proximityDistance = 5f;
-
+    public float distance;
     private Transform playerTransform;
     private bool isPlayingFastSound = false;
 
@@ -16,16 +16,16 @@ public class SOC : MonoBehaviour
 
     void Update()
     {
-        float distance = Vector3.Distance(playerTransform.position, transform.position);
+        distance = Vector3.Distance(playerTransform.position, transform.position);
 
         if (distance <= proximityDistance && !isPlayingFastSound)
         {
-            AudioManager.instance.PlayFastTickTock();
+            AudioManager.Instance.PlaySlowTickTock();
             isPlayingFastSound = true;
         }
         else if (distance > proximityDistance && isPlayingFastSound)
         {
-            AudioManager.instance.PlaySlowTickTock();
+            AudioManager.Instance.PlayFastTickTock();
             isPlayingFastSound = false;
         }
     }
