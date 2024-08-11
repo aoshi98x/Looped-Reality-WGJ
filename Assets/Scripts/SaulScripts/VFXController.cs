@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class VFXController : MonoBehaviour
@@ -5,12 +6,21 @@ public class VFXController : MonoBehaviour
     public GameObject vfxPrefab; 
     public Transform vfxSpawnPoint;
     public bool playerInRange = false;
+    public bool imCorrect;
+    CollectObjects player;
+    void Start()
+    {
+        player = FindAnyObjectByType<CollectObjects>();
+    }
 
     void Update()
     {
-        if (playerInRange && Input.GetButtonDown("ActionPlayer")) 
+        if (playerInRange && Input.GetButtonDown("ActionPlayer") && !player.haveObject) 
         {
             ActivateVFX();
+            player.haveObject = true;
+            player.correctObject = imCorrect;
+
         }
     }
 

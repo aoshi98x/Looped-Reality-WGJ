@@ -30,6 +30,11 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRigidB = GetComponent<Rigidbody>();
+        if(GameManager.Instance.alreadyLose)
+        {
+            GameObject.Find("Screens").SetActive(false);
+            transform.parent.GetComponent<ScreenChangeProbe>().enabled = false;
+        }
     }
 
     void Update()
@@ -98,6 +103,13 @@ public class PlayerController : MonoBehaviour
     void JumpPlayer()
     {
         playerRigidB.AddForce(transform.up *jumpForce, ForceMode.Impulse);
+    }
+
+    private void OnTriggerStay(Collider other) {
+        if(other.CompareTag("GameOver"))
+        {
+            GameManager.Instance.GameOver();
+        }
     }
 }
 

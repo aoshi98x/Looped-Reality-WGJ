@@ -8,6 +8,8 @@ TagManager:
   - CorrectObject
   - IncorrectObject
   - Table
+  - selectObject
+  - GameOver
   layers:
   - Default
   - TransparentFX
