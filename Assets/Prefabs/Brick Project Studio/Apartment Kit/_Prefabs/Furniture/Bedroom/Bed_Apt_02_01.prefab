@@ -140,8 +140,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2302305627513817227}
   - component: {fileID: 2302305627513817230}
-  - component: {fileID: 2302305627513817229}
-  - component: {fileID: 2302305627513817228}
   m_Layer: 0
   m_Name: Drawer_R
   m_TagString: Untagged
@@ -178,42 +176,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6025672, y: 0.2636171, z: 0.08435202}
   m_Center: {x: 0.85352767, y: 0.18706265, z: 1.558624}
---- !u!95 &2302305627513817229
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302305627513817226}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e20d80aafd5329a4897333eebe043b04, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2302305627513817228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302305627513817226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 286620fa050ddc24d90bd777daaa73c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pull: {fileID: 2302305627513817229}
-  open: 0
-  Player: {fileID: 0}
 --- !u!1 &2302305627536529537
 GameObject:
   m_ObjectHideFlags: 0

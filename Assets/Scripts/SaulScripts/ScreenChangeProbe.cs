@@ -8,9 +8,28 @@ public class ScreenChangeProbe : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.N))
+
+        if (Input.GetAxis("Horizontal") != 0 && screenManager.screens[0].activeInHierarchy || Input.GetAxis("Vertical") != 0 && screenManager.screens[0].activeInHierarchy)
         {
             screenManager.NextScreen();
+        }
+        else if(Input.GetButtonDown("Fire2") && screenManager.screens[1].activeInHierarchy)
+        {
+            screenManager.NextScreen();
+        }
+        else if(Input.GetButtonDown("Light") && screenManager.screens[2].activeInHierarchy)
+        {
+            screenManager.NextScreen();
+        }
+        else if(Input.GetButtonDown("ActionPlayer") && screenManager.screens[3].activeInHierarchy)
+        {
+            screenManager.NextScreen();
+        }
+        else if(Input.GetButtonDown("Fire1") && screenManager.screens[4].activeInHierarchy)
+        {
+            screenManager.NextScreen();
+            screenManager.gameObject.SetActive(false);
+            this.enabled = false;
         }
     }
 }
