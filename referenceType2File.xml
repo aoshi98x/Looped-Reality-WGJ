@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>68851d66a0f29b24d9fcd53a9e2574f2</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2024-06-01T08:39:43-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetCollector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>37ec7e7b7f34f1d4fb60b44bbbb169ee</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T08:39:43-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ab72a86af18f3744c997e31216e85b78</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T08:39:43-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ClassReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3daf8386b244edf448e2a8bc3463c477</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2024-06-01T08:39:43-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.CollectionData</string>
+      <string>UnitySweeper.TypeDate</string>
+      <string>UnitySweeper.IReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>282f0b6aa6aff5647a4459f830fef8ab</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2024-06-01T08:39:43-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>49656f399232e4649b3fd3e5e869bee3</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T08:39:43-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b766d08851589514b97afb23c6f30a70</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8424625-05:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleAudio</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e944529dcaee98f4e9498d80e541d93e</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8424625-05:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dae9aa560b4242648a3affa2bfabc365</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8437092-05:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModulePhysics</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>230fe34542e175245ba74b4659dae700</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8446619-05:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModulePhysics2D</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>188918ab119d93148aa0de59ccf5286b</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8456571-05:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleSprite</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a060394c03331a64392db53a10e7f2d1</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.846657-05:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleUI</string>
+      <string>DG.Tweening.DOTweenModuleUI+Utils</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>63c02322328255542995bd02b47b0457</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.846657-05:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleUnityVersion</string>
+      <string>DG.Tweening.DOTweenCYInstruction</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForCompletion</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForRewind</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForKill</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForPosition</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForStart</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7bcaf917d9cf5b84090421a5a2abe42e</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8481684-05:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleUtils</string>
+      <string>DG.Tweening.DOTweenModuleUtils+Physics</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c59a227e130c80f488311f6680a5bf18</guid>
+    <fileName>Assets/RenderChecker.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8557069-05:00</timeStamp>
+    <typeFullName>
+      <string>RenderChecker</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d6830f88e998d104ab430c8f8bf7ebea</guid>
+    <fileName>Assets/Scripts/CollectObjects.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8649654-05:00</timeStamp>
+    <typeFullName>
+      <string>CollectObjects</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ac649f335c9b5ef4889b9f5a29628b12</guid>
+    <fileName>Assets/Scripts/PlayerController.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8649654-05:00</timeStamp>
+    <typeFullName>
+      <string>PlayerController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e0da0470f11c66143a6816b67a3853be</guid>
+    <fileName>Assets/Scripts/TableSubject.cs</fileName>
+    <timeStamp>2024-08-10T20:01:12.9036331-05:00</timeStamp>
+    <typeFullName>
+      <string>TableSubject</string>
+      <string>TableSubject+Orientation</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e5b7bf2683b4bb34182ddcebaf04fb89</guid>
+    <fileName>Assets/Break_Items_Toon_VFX/Scripts/BreaksOnCollide.cs</fileName>
+    <timeStamp>2024-08-10T18:56:33.639745-05:00</timeStamp>
+    <typeFullName>
+      <string>BreaksOnCollide</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d9304989302c8a4da69e3664d5356ee</guid>
+    <fileName>Assets/Break_Items_Toon_VFX/Scripts/BreaksOnTouch.cs</fileName>
+    <timeStamp>2024-08-10T18:56:33.6407402-05:00</timeStamp>
+    <typeFullName>
+      <string>BreaksOnTouch</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5fea29bb7c508c244a1f805a5fd3fc4d</guid>
+    <fileName>Assets/QuickOutline/Scripts/Outline.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.854706-05:00</timeStamp>
+    <typeFullName>
+      <string>Outline</string>
+      <string>Outline+Mode</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b71454185017eea4081787f7e9e26429</guid>
+    <fileName>Assets/QuickOutline/Scripts/OutlineSelection.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.8557069-05:00</timeStamp>
+    <typeFullName>
+      <string>OutlineSelection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>422b0b5885b1d9645a4acf04757c1d37</guid>
+    <fileName>Assets/SaulResourses/Scripts/AudioManager.cs</fileName>
+    <timeStamp>2024-08-10T18:56:33.7383133-05:00</timeStamp>
+    <typeFullName>
+      <string>AudioManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b60173048dda698499d42435b469ecc5</guid>
+    <fileName>Assets/SaulResourses/Scripts/MoveCapsule.cs</fileName>
+    <timeStamp>2024-08-10T18:56:33.7383133-05:00</timeStamp>
+    <typeFullName>
+      <string>MoveCapsule</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dae742e7922dfdc46a83250c0f88f5b5</guid>
+    <fileName>Assets/SaulResourses/Scripts/ScreenChangeProbe.cs</fileName>
+    <timeStamp>2024-08-10T18:57:42.3404567-05:00</timeStamp>
+    <typeFullName>
+      <string>ScreenChangeProbe</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2dcc8dc15feb2a045ae0954c0c5b5d02</guid>
+    <fileName>Assets/SaulResourses/Scripts/ScreenManager.cs</fileName>
+    <timeStamp>2024-08-10T18:57:42.3419679-05:00</timeStamp>
+    <typeFullName>
+      <string>ScreenManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3f16be5fa2fde9d429111c13a31f35d8</guid>
+    <fileName>Assets/SaulResourses/Scripts/SOC.cs</fileName>
+    <timeStamp>2024-08-10T18:56:33.7393135-05:00</timeStamp>
+    <typeFullName>
+      <string>SOC</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>24aee6fb196e8664e96651b0d6669359</guid>
+    <fileName>Assets/SaulResourses/Scripts/VFXController.cs</fileName>
+    <timeStamp>2024-08-10T18:56:33.7403162-05:00</timeStamp>
+    <typeFullName>
+      <string>VFXController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>469e00e876fb40142af620db2b198643</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Closet/ClosetopencloseDoor.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7806995-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.ClosetopencloseDoor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>86ae241f95cb0464188693a338d04798</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/OvenOpen/OvenFlip.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7837009-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.OvenFlip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c60bbd51801dd3749be2ffa1cd525074</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Slide/BRGlassDoor.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7837009-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.BRGlassDoor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>770aee30421368f4899e57b35481b2f8</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Slide/opencloseSlide.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7871161-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.opencloseSlide</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c1f1c4265d2e233469ca3a33b18036d8</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/TableFlip/TableFlipL.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7921115-05:00</timeStamp>
+    <typeFullName>
+      <string>TableFlipL</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7623a6b81839bee4e8ba39905f3df1b0</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/TableFlip/TableFlipR.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7936209-05:00</timeStamp>
+    <typeFullName>
+      <string>TableFlipR</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea52830e8c3e35741a451b12277dfde1</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Windows/opencloseWindowApt.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7976332-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.opencloseWindowApt</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e1a01b1ef84add0458f524da98451c86</guid>
+    <fileName>Assets/Brick Project Studio/Apartment Kit/Common/Scripts &amp; Animation/Z Axis -1/Drawer_Pull_Zopp.cs</fileName>
+    <timeStamp>2024-08-10T18:57:22.7986318-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.Drawer_Pull_Zopp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1e8192f35a44301488ec0f072d9a16fe</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4075673-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.opencloseDoor</string>
+      <string>SojaExiles.opencloseDoor1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4b5e0617227fa4743be84f23d9e5cb42</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4085681-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.opencloseDoor1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b697b9be3c8d9534ebd171d2b41d6f4f</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4115678-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.opencloseStallDoor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>478f19f2b564b5a459ccd72d2ea6afe1</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4226159-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.MouseLook</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c84cdf898723e1a4b9e4954eb5a76a33</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4226159-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.PlayerMovement</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4189f6b82d537b45b085891d0ec97f4</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4236304-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.SceneSwitchGen</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>817d7f89b6e10ed4d804fa09670bf2ea</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4286819-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.opencloseWindow</string>
+      <string>SojaExiles.opencloseWindow1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>79023f3c1c542ca478d98525efcaa0bd</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4296818-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.opencloseWindow1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e0d5557a01f4e0740bd53d6ed2ab7327</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4140905-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.Drawer_Pull_X</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>286620fa050ddc24d90bd777daaa73c5</guid>
+    <fileName>Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs</fileName>
+    <timeStamp>2024-08-10T18:57:24.4181069-05:00</timeStamp>
+    <typeFullName>
+      <string>SojaExiles.Drawer_Pull_Z</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+</ArrayOfTypeDate>
