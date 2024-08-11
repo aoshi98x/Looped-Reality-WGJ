@@ -7,8 +7,10 @@ public class CollectObjects : MonoBehaviour
     private bool haveObject = false;
     private bool doorIsOpen = false;
     public GameObject door; 
-    public Vector3 doorOpenPosition; 
-    public float moveSpeed = 2f; 
+    public float rotationSpeed = 2f; 
+    public Vector3 pivotOffset;
+    private float targetRotation = 90f;
+    private float currentRotation = 0f;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -23,18 +25,26 @@ public class CollectObjects : MonoBehaviour
 
     private void Update()
     {
-        if (haveObject && !doorIsOpen)
-        {
-            MoveDoor();
+        if (haveObject && !doorIsOpen){
+            RotateDoor();
         }
     }
-    private void MoveDoor()
-    {
-        door.transform.position = Vector3.MoveTowards(door.transform.position, doorOpenPosition, moveSpeed * Time.deltaTime);
+    private void RotateDoor()
 
-        if (door.transform.position == doorOpenPosition)
-        {
+    {
+        Vector3 pivotPoint = door.transform.position + pivotOffset;
+        float rotationThisFrame = rotationSpeed * Time.deltaTime;
+
+        if (currentRotation + rotationThisFrame > targetRotation){
+            rotationThisFrame = targetRotation - currentRotation;
+        }
+
+        door.transform.RotateAround(pivotPoint, Vector3.up, rotationThisFrame);
+        currentRotation += rotationThisFrame;
+
+        if (currentRotation >= targetRotation){
             doorIsOpen = true;
         }
+
     }
 }
