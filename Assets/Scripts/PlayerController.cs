@@ -25,11 +25,16 @@ public class PlayerController : MonoBehaviour
     bool activePhone, flashActive;
     public LayerMask interactables;
     RaycastHit hit;
+    public Texture2D cursor;
 
 
     void Start()
     {
         playerRigidB = GetComponent<Rigidbody>();
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         if(GameManager.Instance.alreadyLose)
         {
             GameObject.Find("Screens").SetActive(false);
@@ -110,6 +115,11 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.Instance.GameOver();
         }
+    }
+
+    private void OnGUI() {
+        Rect rect = new Rect(Screen.width / 2, Screen.height / 2, cursor.width,  cursor.height);
+        GUI.DrawTexture(rect, cursor);
     }
 }
 

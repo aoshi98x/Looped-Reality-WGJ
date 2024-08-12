@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 7214135209668837479}
   - component: {fileID: 7532235673293454359}
   - component: {fileID: 572741141759436918}
-  - component: {fileID: 993641909}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Table_Side_Apt_01
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,23 +98,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.90270424, y: 0.7783863, z: 0.7897522}
   m_Center: {x: 0.12936687, y: 0.38919315, z: -0.00000003973643}
---- !u!114 &993641909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5626706108481955418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0da0470f11c66143a6816b67a3853be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isOpen: 0
-  drawer: {fileID: 8698839405852113499}
-  orientation: 0
-  originValue: 0
-  destinationValue: 0.5
 --- !u!1 &7107749821160667755
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,7 +109,7 @@ GameObject:
   - component: {fileID: 8722149950046626367}
   - component: {fileID: 4289846115821185018}
   - component: {fileID: 6471184083371856728}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +193,7 @@ GameObject:
   - component: {fileID: 5213435544768149446}
   - component: {fileID: 7161535968814058960}
   - component: {fileID: 8025527974131381722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,9 +276,9 @@ GameObject:
   - component: {fileID: 5594884921497808162}
   - component: {fileID: 1165858228339764706}
   - component: {fileID: 8896407596103779847}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.001
-  m_TagString: selectObject
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -377,7 +359,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8698839405852113499}
   - component: {fileID: 8698839405852113476}
-  m_Layer: 0
+  - component: {fileID: 545580227}
+  m_Layer: 3
   m_Name: Drawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,3 +396,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05, y: 0.19, z: 0.6}
   m_Center: {x: 0.3, y: 0.64, z: 0}
+--- !u!114 &545580227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698839405852113496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0da0470f11c66143a6816b67a3853be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectType: 0
+  isOpen: 0
+  drawer: {fileID: 8698839405852113499}
+  orientation: 0
+  originValue: 0
+  destinationValue: 0.5

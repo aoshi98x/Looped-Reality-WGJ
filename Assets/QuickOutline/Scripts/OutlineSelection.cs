@@ -8,6 +8,7 @@ public class OutlineSelection : MonoBehaviour
     private Transform highlight;
     private Transform selection;
     private RaycastHit raycastHit;
+    public LayerMask selectableLayer; // Capa seleccionable definida desde el Inspector
 
     void Update()
     {
@@ -17,11 +18,12 @@ public class OutlineSelection : MonoBehaviour
             highlight.gameObject.GetComponent<Outline>().enabled = false;
             highlight = null;
         }
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out raycastHit)) //Make sure you have EventSystem in the hierarchy before using EventSystem
+        if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out raycastHit))
         {
             highlight = raycastHit.transform;
-            if (highlight.CompareTag("Selectable") && highlight != selection)
+            if ((highlight.CompareTag("Selectable") || ((1 << highlight.gameObject.layer) & selectableLayer) != 0) && highlight != selection)
             {
                 if (highlight.gameObject.GetComponent<Outline>() != null)
                 {
@@ -31,7 +33,7 @@ public class OutlineSelection : MonoBehaviour
                 {
                     Outline outline = highlight.gameObject.AddComponent<Outline>();
                     outline.enabled = true;
-                    highlight.gameObject.GetComponent<Outline>().OutlineColor = Color.magenta;
+                    highlight.gameObject.GetComponent<Outline>().OutlineColor = Color.white;
                     highlight.gameObject.GetComponent<Outline>().OutlineWidth = 7.0f;
                 }
             }
@@ -64,5 +66,5 @@ public class OutlineSelection : MonoBehaviour
             }
         }
     }
-
 }
+

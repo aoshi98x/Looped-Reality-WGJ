@@ -59,6 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0da0470f11c66143a6816b67a3853be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectType: 0
   isOpen: 0
   drawer: {fileID: 5018950054057871644}
   orientation: 0
@@ -77,7 +78,7 @@ GameObject:
   - component: {fileID: 5018950054084982446}
   m_Layer: 3
   m_Name: Handle.006
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -289,6 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0da0470f11c66143a6816b67a3853be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectType: 0
   isOpen: 0
   drawer: {fileID: 5018950055006186487}
   orientation: 0
@@ -308,7 +310,7 @@ GameObject:
   - component: {fileID: 5018950055216721062}
   m_Layer: 0
   m_Name: Table_End_01
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -522,7 +524,7 @@ GameObject:
   - component: {fileID: 5018950055889833688}
   m_Layer: 3
   m_Name: Drawer.004
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
