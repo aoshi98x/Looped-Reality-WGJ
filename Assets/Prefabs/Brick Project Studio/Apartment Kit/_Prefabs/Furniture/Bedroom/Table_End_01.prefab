@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5018950054057871644}
   - component: {fileID: 5018950054057871641}
-  m_Layer: 0
+  - component: {fileID: 300844374}
+  m_Layer: 3
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,6 +47,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.07213211, y: 0.3296373, z: 0.9715026}
   m_Center: {x: 0.39, y: 0.22, z: -0.00000047683716}
+--- !u!114 &300844374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5018950054057871645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0da0470f11c66143a6816b67a3853be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectType: 0
+  isOpen: 0
+  drawer: {fileID: 5018950054057871644}
+  orientation: 0
+  originValue: 0
+  destinationValue: 0.5
 --- !u!1 &5018950054084982444
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,9 +76,9 @@ GameObject:
   - component: {fileID: 5018950054084982447}
   - component: {fileID: 5018950054084982441}
   - component: {fileID: 5018950054084982446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.006
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +159,7 @@ GameObject:
   - component: {fileID: 5018950054119123286}
   - component: {fileID: 5018950054119123280}
   - component: {fileID: 5018950054119123281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +241,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5018950055006186487}
   - component: {fileID: 5018950055006186480}
-  m_Layer: 0
+  - component: {fileID: 1676764098}
+  m_Layer: 3
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,6 +278,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.07213211, y: 0.3296373, z: 0.9715026}
   m_Center: {x: 0.39, y: 0.66671884, z: -0.00000047683716}
+--- !u!114 &1676764098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5018950055006186484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0da0470f11c66143a6816b67a3853be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectType: 0
+  isOpen: 0
+  drawer: {fileID: 5018950055006186487}
+  orientation: 0
+  originValue: 0
+  destinationValue: 0.5
 --- !u!1 &5018950055216721061
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,10 +308,9 @@ GameObject:
   - component: {fileID: 5018950055216721056}
   - component: {fileID: 5018950055216721057}
   - component: {fileID: 5018950055216721062}
-  - component: {fileID: 1499133306}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Table_End_01
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -355,25 +392,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 1, z: 1}
-  m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &1499133306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5018950055216721061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0da0470f11c66143a6816b67a3853be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isOpen: 0
-  drawer: {fileID: 5018950055006186487}
-  orientation: 0
-  originValue: 0
-  destinationValue: 0.5
+  m_Size: {x: 1.3335923, y: 0.99262613, z: 1.0870614}
+  m_Center: {x: 0.25777692, y: 0.48207143, z: 0.0061107874}
 --- !u!1 &5018950055296117028
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +405,7 @@ GameObject:
   - component: {fileID: 5018950055296117031}
   - component: {fileID: 5018950055296117025}
   - component: {fileID: 5018950055296117030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,9 +522,9 @@ GameObject:
   - component: {fileID: 5018950055889833694}
   - component: {fileID: 5018950055889833691}
   - component: {fileID: 5018950055889833688}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.004
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
